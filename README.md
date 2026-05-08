@@ -32,13 +32,24 @@ It builds on a previous EC2 + NGINX project by adding database integration and a
 
 ### 2. IAM Configuration
 - Attached DynamoDB permissions to EC2 role
+  ![IAM Permissions](screenshots/iam-dynamodb.png)
+  ![IAM Permissions](screenshots/iam-role-attached.png)
 
 ### 3. Data Operations
 - Inserted items using AWS CLI
+  ![Insert_Item](screenshots/dynamodb-insert.png)
 - Retrieved items using scan
+  ![Get_Item](screenshots/dynamodb-scan.png)
 
 ### 4. Automation
 - Created Bash script to automate inserts
+  ![Insert_usingscript](screenshots/script-file.png)
+  ![Insert_usingscript](screenshots/script-run.png)
+
+### 5. View the table after inserting the data
+- Performed the scan operation on the table
+  ![View_table](screenshots/dyanmodb-updated.png)
+  
 
 ---
 
