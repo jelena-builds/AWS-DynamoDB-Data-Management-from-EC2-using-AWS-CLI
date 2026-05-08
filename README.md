@@ -28,6 +28,7 @@ It builds on a previous EC2 + NGINX project by adding database integration and a
 
 ### 1. DynamoDB Setup
 - Created table with partition key `Id`
+  ![DynamoDB Table](screenshots/dynamodb-table.png)
 
 ### 2. IAM Configuration
 - Attached DynamoDB permissions to EC2 role
