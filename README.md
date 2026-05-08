@@ -42,10 +42,9 @@ It builds on a previous EC2 + NGINX project by adding database integration and a
   ![Get_Item](screenshots/dynamodb-scan.png)
 
 ### 4. Automation
-- Created Bash script to automate inserts
+- Created Bash script to automate inserts and run it
   ![Insert_usingscript](screenshots/script-file.png)
   
-- Run the script
   ![Run_script](screenshots/script-run.png)
 
 ### 5. View the table after inserting the data
