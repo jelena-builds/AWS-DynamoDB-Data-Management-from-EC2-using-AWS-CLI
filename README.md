@@ -44,6 +44,7 @@ It builds on a previous EC2 + NGINX project by adding database integration and a
 ### 4. Automation
 - Created Bash script to automate inserts
   ![Insert_usingscript](screenshots/script-file.png)
+  
 - Run the script
   ![Run_script](screenshots/script-run.png)
 
