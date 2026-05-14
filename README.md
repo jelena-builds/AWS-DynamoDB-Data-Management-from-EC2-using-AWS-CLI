@@ -10,11 +10,11 @@ This builds on the EC2 environment by adding basic database interaction.
 ---
 
 ## Architecture
--Amazon EC2 (Amazon Linux)
--DynamoDB table (UserData)
--IAM role with DynamoDB permissions
--AWS CLI installed on EC2
--Bash script for automation
+- Amazon EC2 (Amazon Linux)
+- DynamoDB table (UserData)
+- IAM role with DynamoDB permissions
+- AWS CLI installed on EC2
+- Bash script for automation
 
 ---
 
