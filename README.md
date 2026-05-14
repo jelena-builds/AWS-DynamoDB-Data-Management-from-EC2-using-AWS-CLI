@@ -56,26 +56,25 @@ This builds on the EC2 environment by adding basic database interaction.
 
 ---
 
-## Script Example
+## Automation Script
+
+A Bash script ('insert-data.sh' ) is included to automate table data insertion.
+
+### Usage
 
 ```bash
-#!/bin/bash
-
-aws dynamodb put-item \
-  --table-name UserData \
-  --item '{
-    "Id": {"S": "2"},
-    "name": {"S": "AutoUser"}
-  }'
+chmod +x insert.sh
+./insert-data.sh
+```
 
 ---
 
 ## Key Skills Demonstrated
--AWS DynamoDB table creation and management
--AWS CLI usage for database operations
--IAM role configuration for secure access
--Linux-based interaction with AWS services
--Basic Bash scripting for automation
+- AWS DynamoDB table creation and management
+- AWS CLI usage for database operations
+- IAM role configuration for secure access
+- Linux-based interaction with AWS services
+- Basic Bash scripting for automation
 
 ## Author
 Jelena
