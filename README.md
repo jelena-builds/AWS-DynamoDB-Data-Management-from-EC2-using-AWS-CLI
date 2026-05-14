@@ -63,7 +63,7 @@ A Bash script ('insert-data.sh' ) is included to automate table data insertion.
 ### Usage
 
 ```bash
-chmod +x insert.sh
+chmod +x insert-data.sh
 ./insert-data.sh
 ```
 
