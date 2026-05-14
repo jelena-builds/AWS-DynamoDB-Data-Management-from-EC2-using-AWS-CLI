@@ -19,10 +19,10 @@ This builds on the EC2 environment by adding basic database interaction.
 ---
 
 ## Functionality
--Created and configured a DynamoDB table
--Inserted items using AWS CLI (put-item)
--Retrieved data using scan operation
--Automated data insertion using a Bash script
+- Created and configured a DynamoDB table
+- Inserted items using AWS CLI (put-item)
+- Retrieved data using scan operation
+- Automated data insertion using a Bash script
 
 ---
 
